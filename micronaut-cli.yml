@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: example.micronaut
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [annotation-api, app-name, geb, graalvm, gradle, http-client, java, java-application, logback, netty-server, reactor, reactor-http-client, readme, security-annotations, security-jwt, shade, spock, views-velocity, yaml]
