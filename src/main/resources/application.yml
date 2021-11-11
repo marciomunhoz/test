@@ -8,6 +8,12 @@ micronaut:
     authentication: cookie # <1>
     redirect:
       login-failure: /login/authFailed  # <2>
+      login-success: /me
+      unauthorized:
+        url: /xpto
+      forbidden:
+        url: /xpto
+    
     token:
       jwt:
         signatures:
